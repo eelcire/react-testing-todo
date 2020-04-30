@@ -4,8 +4,6 @@ import Note from './Note';
 
 const props = { note: { text: 'test note' } };
 
-console.log({ ...props });
-
 describe('Note', () => {
   let note = mount(<Note {...props} />);
 
